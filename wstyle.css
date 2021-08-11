@@ -247,7 +247,7 @@ form input{
   outline:none;
   box-shadow: none;
   box-sizing: border-box;
-  border:2px solid rgb(236, 82, 107); ;
+  border:2px solid rgb(236, 82, 107) ;
 }
 .plat{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -264,6 +264,79 @@ form input{
   padding:18px 0;
 
 }
+.jumbotron{
+  background-color: lavenderblush;
+  padding-left: 100px;
+  padding-right: 100px;
+ 
+}
+.row{
+  margin-top:-20px;
+  margin-bottom: -20px;
+}
+
+li{
+  list-style-type: none;
+}
+
+li a{
+  color: rgb(74, 71, 87);
+}
+li a:hover{
+  text-decoration: none;
+  color: rgb(13, 228, 174);
+}
+.fa {
+  font-size: 30px;
+  width: 50px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: rgb(236, 82, 107) ;
+  color: white;
+  border-radius: 25px;
+}
+
+.fa-twitter {
+  background: rgb(236, 82, 107) ;
+  color: white;
+  border-radius: 25px;
+}
+
+
+.fa-youtube {
+  background: rgb(236, 82, 107) ;
+  color: white;
+  border-radius: 25px;
+}
+
+.fa-instagram {
+  background: rgb(236, 82, 107) ;
+  color: white;
+  border-radius: 25px;
+}
+
+.fa-snapchat-ghost {
+  background: rgb(236, 82, 107) ;
+  color: white;
+  border-radius: 25px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.icon{
+  margin-top: 20px;
+   margin-left: -100px;
+}
+
 @media only screen and (max-width:770px){
   #header{
     background-image: none;
@@ -295,6 +368,9 @@ form input{
   }
   .about-left-col,.about-right-col{
     flex-basis:100% ;
+  }
+  .about-left-col img{
+    margin-top: 50px;;
   }
   .about-text{
    padding-right:10px;
@@ -352,4 +428,17 @@ margin:10px 60px;
     margin-left: 110px;
     font-size: 20px;
    }
-}
+   .row{
+     padding: 10%;
+   }
+ 
+   .fa{
+     margin-left: 0px;
+     width:45px;
+     height:10px;
+     border-radius: 65%;
+   }
+   .icon{
+     margin-right: -40px;
+   }
+  }
