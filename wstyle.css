@@ -9,7 +9,7 @@
   background-position: center;
   background-size: cover;
 }
-.container{
+.containerr{
   margin-top: -25px;
   margin-right:20px ;
   margin-left: 10px;
@@ -353,3 +353,28 @@ margin:10px 60px;
     font-size: 20px;
    }
 }
+
+.jumbotron{
+  background-color: lavenderblush;
+  color: black;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+li{
+  list-style-type: none;
+  padding-left: 2px;
+}
+
+li a{
+  color: black;
+}
+li a:hover{
+  text-decoration: none;
+  color: rgb(236, 82, 107);
+}
+
+.d-inline{
+  padding: 8px;
+}
+
